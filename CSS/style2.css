@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(/baby.jpg);
+    background-size: cover;
+}
+
+    h2{
+        margin: 0;
+        padding: 2rem;
+        text-align: center;
+        color: azure;
+        font-size: 250%;
+        
+        
+    }
+
+    .quiz-C{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;background-color:none;
+        width: 50%;
+        margin-right: 20rem;
+        margin-left: 30rem;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 3);
+        overflow: hidden;
+        
+    }
+
+    .quiz-H{
+        padding: 2rem;
+    }
+
+    ul{
+        list-style-type: none;
+        padding: 2rem;
+    }
+
+    ul li{
+        padding: 1rem 0;
+        font-size: 1.3rem;
+        color: white;
+        margin: 1rem 0;
+        font-size: 1.5rem;
+    }
+
+    ul li label{
+        cursor: pointer;
+    }
+
+    button{
+        background-color: rgba(249, 247, 250, 0.973);
+        color: green;
+        display: block;
+        width: 100%;
+        padding: 1rem;
+        font-family: inherit;
+        border: none;
+        font-size: 3rem;
+        cursor: pointer;
+    }
+
+    button:hover{
+        background-color: rgb(104, 97, 4);
+    }
+
+    button:focus{
+        background-color: rgb(122, 122, 119);
+        outline: none;
+    }
+
+    .head{
+        font-size: larger;
+        border: 2;
+        border-color: blueviolet;
+        padding: 2rem;
+        color: whitesmoke;
+    }
+    h1 {
+        text-align: center;
+    }
+    footer{
+        text-align: center;
+        font-size: 200%;
+        color: white;
+    }
